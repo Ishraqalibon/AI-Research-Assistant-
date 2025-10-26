@@ -1,0 +1,75 @@
+# ===============================
+#  AI Research Assistant Project
+#  Professional .gitignore
+# ===============================
+
+# --- ENVIRONMENT FILES ---
+.env
+*.env
+.env.*
+
+# --- PYTHON BUILD / CACHE ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pkl
+*.pyo
+*.pyd
+
+# --- VIRTUAL ENVIRONMENTS ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- JUPYTER / IPYTHON ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- LOGS AND TEMP FILES ---
+logs/
+*.log
+*.tmp
+tmp/
+cache/
+__logs__/
+*.bak
+
+# --- STREAMLIT FILES ---
+.streamlit/
+.streamlit/secrets.toml
+
+# --- DATA & UPLOADS ---
+data/
+uploads/
+*.pdf
+*.csv
+*.docx
+*.pptx
+
+# --- SYSTEM FILES ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- IDE / EDITOR FILES ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- TESTS / OUTPUT ---
+tests/__pycache__/
+*.pytest_cache/
+htmlcov/
+coverage.xml
+dist/
+build/
+
+# --- MISCELLANEOUS ---
+*.sqlite3
+*.db
+*.tar
+*.gz
+*.zip
