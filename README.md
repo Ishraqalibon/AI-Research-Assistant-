@@ -60,3 +60,9 @@ This project served as a deep dive into advanced GenAI application development, 
 ### 1. Environment Setup
 
 Create a file named `.env` in the root directory and populate it with your API keys:
+```bash
+  API_KEY="sk-..."
+  QDRANT_URL="<your_qdrant_host_url>"
+  QDRANT_API_KEY="<your_qdrant_api_key>"
+  QDRANT_COLLECTION=research_papers
+```
