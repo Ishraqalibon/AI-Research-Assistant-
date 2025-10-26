@@ -1,7 +1,7 @@
 import streamlit as st
 
 def init_layout():
-    st.title("📘 Advanced Research Assistant")
+    st.title("📘 Advanced AI Research Assistant")
     st.markdown(
         """
         Upload PDFs on the left. Use the Research Interface to ask questions,

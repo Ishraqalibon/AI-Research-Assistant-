@@ -11,7 +11,7 @@ from utils.logging_utils import configure_logging
 configure_logging()
 logger = logging.getLogger(__name__)
 
-st.set_page_config(page_title="Research Assistant (Phase 2)", layout="wide")
+st.set_page_config(page_title="AI Research Assistant", layout="wide")
 init_layout()
 
 # Persistent session defaults
