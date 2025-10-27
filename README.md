@@ -20,7 +20,7 @@ The core challenge was ensuring the model received the most relevant context pos
 
 ## Key Features
 
-- **PDF Upload & Vectorization:** Easily upload single or multiple PDF research papers. Documents are automatically chunked and indexed using OpenAI Embeddings and stored in a Qdrant vector database.
+- **PDF Upload & Vectorization:** Easily upload single PDF research paper. Documents are automatically chunked and indexed using OpenAI Embeddings and stored in a Qdrant vector database.
 - **Hybrid Retrieval (RAG):** Combines Dense Retrieval (Qdrant) and Sparse Retrieval (BM25) for highly relevant context extraction, followed by Cross-Encoder Reranking to ensure the most accurate context is passed to the LLM.
 - **Intelligent Q&A:** Ask complex questions about the uploaded document(s) and receive answers strictly grounded in the content, complete with inline citations.
 - **Research Tools Suite:**
